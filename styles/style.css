@@ -1,0 +1,61 @@
+
+.bg-nav-main{
+    background-color: bisque;
+}
+.nav-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.link-container{
+display: flex;
+gap: 20px;
+}
+
+.hire-me-btn{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 6px 6px;
+    color: white;
+    font-weight: 800;
+}
+ul{
+    list-style: none;
+}
+ a {
+    text-decoration: none;
+}
+
+.hero-contain{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .hero-contain h1{
+    font-size: 32px;
+    font-weight: bold;
+ }
+.hero-img{
+   max-width:500px;
+    height: 500px;
+}
+.hero-download-btn {
+    background-color: #FD6E0A;
+    padding: 6px 6px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.hero-contact{
+    border: solid #FD6E0A;
+    border-radius: 5px;
+    padding: 4px 4px;
+}
