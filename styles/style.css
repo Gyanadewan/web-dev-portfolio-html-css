@@ -290,3 +290,15 @@ ul{
 .footer-right button:hover{
     background: #e85d04;
 }
+
+.copyright{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.copyright p{
+    font-size: 15px;
+    color: #757575;
+}
