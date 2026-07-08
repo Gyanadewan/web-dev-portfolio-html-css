@@ -143,3 +143,14 @@ ul{
     font-size: 18px;
     font-weight: 600;
 }
+
+
+.what-I-do-section{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.what-I-do-section h2 {
+    text-align: center;
+    font-size: 30px;
+}
