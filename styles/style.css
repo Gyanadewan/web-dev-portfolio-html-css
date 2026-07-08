@@ -28,6 +28,15 @@ ul{
     text-decoration: none;
 }
 
+.gyana{
+      color: rgb(11, 226, 226);
+      font-size: 30px;
+}
+
+.dewan{
+      color: rgb(182, 127, 104);
+      font-size: 30px;
+}
 .hero-contain{
     max-width: 1000px;
     margin: 0 auto;
@@ -95,4 +104,42 @@ ul{
 
 .bg-nav-main,.bg-hero{
    background-color: #FFF8F3;
+}
+
+
+.about-me-section{
+    background-color: #FFF8F3;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 60px ;
+    margin-bottom: 60px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+}
+
+.about-me-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label {
+    color: #757575;
+    font-size: 16px;
+}
+
+.value {
+    color: #181818;
+    font-size: 18px;
+    font-weight: 600;
 }
