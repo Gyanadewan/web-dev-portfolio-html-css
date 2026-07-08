@@ -176,3 +176,47 @@ ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
+
+ .edu-expri-section{
+    max-width: 1000px;
+    margin: 30px auto 0;
+ }
+ .edu-expri-section h2{
+        text-align: center;
+ }
+.edu-expr-main-contain {
+    display: flex;
+    gap: 50px;
+}
+
+.edu-left-side{
+    width: 30%;
+}
+.ex-right-side{
+    width:30%;
+}
+
+.edu-card {
+    box-shadow: 10px 10px 10px 10px  #FFF8F3;
+    padding: 5px 6px;
+    border-bottom: 1px solid rgb(137, 137, 137);
+   
+}
+
+.btn-second{
+    display: flex;
+    justify-content: center;
+}
+.second-cv-btn{
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: white;
+    font-weight: 800;
+    margin-top: 20px;
+    border: none;
+    
+}
