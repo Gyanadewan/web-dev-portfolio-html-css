@@ -220,3 +220,73 @@ ul{
     border: none;
     
 }
+.footer{
+    background: #FFF8F3;
+    padding: 80px 20px;
+}
+
+.footer-contain{
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.footer-left,
+.footer-right{
+    flex: 1;
+}
+
+.footer-left h2,
+.footer-right h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.footer-left p{
+    color: #757575;
+    line-height: 28px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-right input,
+.footer-right textarea{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    background: #fff;
+}
+
+.footer-right textarea{
+    height: 150px;
+    resize: none;
+}
+
+.footer-right button{
+    width: 160px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #FD6E0A;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer-right button:hover{
+    background: #e85d04;
+}
